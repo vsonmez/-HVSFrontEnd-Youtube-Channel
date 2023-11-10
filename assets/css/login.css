@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-container {
+  display: flex;
+}
+.login-right-side {
+  background-color: #f5f5f5;
+  border-radius: 24px;
+  padding: 64px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.login-button {
+  border-radius: 24px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+.login-button.facebook {
+  background-color: #1877f2;
+}
+.login-button.google {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.54);
+}
+.login-button.apple {
+  background-color: #000;
+}
+.login-button img {
+  width: 32px;
+}
+.login-left-side {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.login-left-side p {
+  margin: 0;
+}
+.login-left-side p:nth-of-type(1) {
+  font-size: 24px;
+}
+.login-left-side p:nth-of-type(2) {
+  font-weight: bold;
+  font-size: 56px;
+}
